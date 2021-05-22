@@ -13,7 +13,7 @@ const pingApp = async () => {
     }).catch((error) => {
         console.log('error', error)
     });
-    return 'done!';
+    return 'done!!';
 };
 
 pingApp();
