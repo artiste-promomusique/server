@@ -5,6 +5,8 @@ const pingApp = async () => {
     .then((response) => {
         console.log(response);
         console.log('oki doki');
+    }).catch((error) => {
+        console.log('error', error)
     });
     return true;
 };
