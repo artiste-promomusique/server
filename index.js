@@ -6,7 +6,7 @@ axios({
     withCredentials: true
 }).then((response) => {
     console.log(response);
-    console.log('oki doki');
+    console.log('oki doki!');
 }).catch((error) => {
     console.log('error!!', error)
 });
