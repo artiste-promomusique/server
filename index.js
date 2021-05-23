@@ -2,7 +2,8 @@ const axios = require('axios');
 
 axios({
     method: 'GET',
-    url: 'https://artiste-promomusique.vercel.app/api/analytics/youtubeOrders'
+    url: 'https://artiste-promomusique.vercel.app/api/analytics/youtubeOrders',
+    withCredentials: true
 }).then((response) => {
     console.log(response);
     console.log('oki doki!!');
