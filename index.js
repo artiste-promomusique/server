@@ -1,22 +1,12 @@
 const axios = require('axios');
 
-const pingApp = async () => {
-    /*    const options = {
-           method: 'GET',
-           withCredentials: true,
-           url: 'https://artiste-promomusique.vercel.app/api/analytics/youtubeOrders'
-       }; */
-    axios({
-        method: 'GET',
-        url: 'https://artiste-promomusique.vercel.app/api/analytics/youtubeOrders',
-        withCredentials: true
-    }).then((response) => {
-        console.log(response.data);
-        console.log('oki doki!!!!');
-    }).catch((error) => {
-        console.log('error!', error)
-    });
-    return 'done!!';
-};
-
-pingApp();
+axios({
+    method: 'GET',
+    url: 'https://artiste-promomusique.vercel.app/api/analytics/youtubeOrders',
+    withCredentials: true
+}).then((response) => {
+    console.log(response.data);
+    console.log('oki doki!!!!');
+}).catch((error) => {
+    console.log('error!', error)
+});
