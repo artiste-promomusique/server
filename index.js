@@ -7,7 +7,7 @@ axios({
     headers: { "Content-type": "application/json;charset=UTF-8" }
 }).then((response) => {
     console.log(response);
-    console.log('oki doki!');
+    console.log('oki doki!!');
 }).catch((error) => {
     console.log('error!', error)
 });
