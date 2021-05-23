@@ -11,6 +11,8 @@ const pingApp = async () => {
     }).catch((error) => {
         console.log('error!!', error)
     });
+
+    return;
 };
 
 pingApp();
