@@ -11,7 +11,7 @@ const pingApp = async () => {
             console.log(response.data);
             console.log('oki doki!');
         }).catch((error) => {
-            console.log('error', error)
+            console.log('error!', error)
         });
     return 'done!!';
 };
