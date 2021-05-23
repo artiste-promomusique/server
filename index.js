@@ -7,5 +7,5 @@ axios({
     console.log(response);
     console.log('oki doki!!');
 }).catch((error) => {
-    console.log('error!', error)
+    console.log('error!!', error)
 });
