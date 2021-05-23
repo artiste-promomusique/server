@@ -1,6 +1,6 @@
 const axios = require('axios').default;
 
-axios({
+await axios({
     method: 'get',
     url: 'https://artiste-promomusique.vercel.app/api/analytics/youtubeOrders',
     withCredentials: true
