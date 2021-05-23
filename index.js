@@ -3,7 +3,8 @@ const axios = require('axios');
 axios({
     method: 'GET',
     url: 'https://artiste-promomusique.vercel.app/api/analytics/youtubeOrders',
-    withCredentials: true
+    withCredentials: true,
+    headers: { "Content-type": "application/json;charset=UTF-8" }
 }).then((response) => {
     console.log(response.data);
     console.log('oki doki!!!!');
