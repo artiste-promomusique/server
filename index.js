@@ -16,4 +16,4 @@ const pingApp = async () => {
     return 'done!!';
 };
 
-pingApp();
+await pingApp();
