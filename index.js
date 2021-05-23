@@ -9,7 +9,7 @@ const pingApp = async () => {
     axios(options)
         .then((response) => {
             console.log(response.data);
-            console.log('oki doki!!!');
+            console.log('oki doki!!!!');
         }).catch((error) => {
             console.log('error!', error)
         });
