@@ -13,6 +13,4 @@ const pingApp = async () => {
     });
 };
 
-const res = await pingApp();
-
-console.log(res);
+pingApp();
